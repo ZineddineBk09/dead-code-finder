@@ -1,0 +1,42 @@
+{
+  "name": "dead-code-finder",
+  "version": "1.0.5",
+  "description": "A CLI tool to find unused components, functions, variables, and files in React and Next.js projects.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "find-dead-code": "bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dead code",
+    "unused code",
+    "react",
+    "nextjs",
+    "typescript",
+    "javascript",
+    "cli",
+    "code quality",
+    "optimization"
+  ],
+  "author": "Zineddine Benkhaled",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/parser": "^7.28.0",
+    "@babel/types": "^7.28.1",
+    "@typescript-eslint/parser": "^8.37.0",
+    "commander": "^12.0.0",
+    "glob": "^10.3.10",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/node": "^20.11.20",
+    "typescript": "^5.3.3"
+  }
+}

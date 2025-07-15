@@ -1,0 +1,15 @@
+{
+  "srcDir": "src",
+  "ignorePatterns": [
+    "**/node_modules/**",
+    "**/.next/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/*.test.*",
+    "**/*.spec.*",
+    "**/__tests__/**",
+    "**/__mocks__/**",
+    "**/lib/**",
+    "**/utils/**"
+  ]
+} 
