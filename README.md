@@ -134,7 +134,7 @@ Both modes apply special heuristics for React components, Next.js entry points, 
 
 ## Contributing
 
-Contributions are welcome! If you find a bug, have a feature request, or want to contribute code, please open an issue or submit a pull request on the GitHub repository.
+Contributions are welcome! If you find a bug, have a feature request, or want to contribute code, please open an issue or submit a pull request on the [GitHub repository](https://github.com/ZineddineBk09/dead-code-finder).
 
 ## License
 
